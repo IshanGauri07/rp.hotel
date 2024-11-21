@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Hotel</h1>
+        <nav>
+            <ul>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="rooms">
+        <h2>Available Rooms</h2>
+        <div class="room">
+            <img src="download.jpeg" alt="Deluxe Room">
+            <p>Deluxe Room Description
+                Deluxe Room
+                
+                Experience luxury and comfort in our beautifully appointed Deluxe Room, designed to provide an unforgettable stay. This spacious room features elegant decor and modern amenities, making it the perfect choice for both leisure and business travelers.
+                
+                Key Features:
+                
+                Size: 350 sq. ft. of well-designed space
+                Bed: King-size bed with premium bedding for a restful night's sleep
+                View: Stunning views of the city skyline or serene garden
+                Bathroom: En-suite bathroom with a soaking tub, separate shower, and complimentary toiletries
+                Amenities:
+                Flat-screen TV with cable channels
+                High-speed Wi-Fi access
+                Mini-bar stocked with refreshments
+                Coffee and tea-making facilities
+                In-room safe for your valuables
+                Air conditioning and heating for year-round comfort
+                Additional Services:
+                24-hour room service
+                Daily housekeeping
+                Complimentary breakfast included with your stay
+                Decor: The Deluxe Room is tastefully decorated with contemporary furnishings, soft lighting, and warm color palettes, creating a cozy and inviting atmosphere. Large windows allow natural light to flood the room, enhancing the overall ambiance.
+                
+                Ideal For: Whether you are on a romantic getaway, a family vacation, or a business trip, our Deluxe Room offers the perfect blend of comfort and luxury. Enjoy a peaceful retreat after a day of exploring the city or attending meetings.
+                
+                Booking Information: Price:  2000 per night
+                Check-in: 3:00 PM
+                Check-out: 11:00 AM</p>
+            <h3>Deluxe Room</h3>
+            <p>Price: 5000 per night</p>
+            <button>Book Now <a href="deluxe.html"></a></button>
+        </div>
+        <div class="room">
+            <img src="download (1).jpeg" alt="Standard Room">
+            <p>Our Standard Room offers a comfortable and cozy retreat for travelers seeking quality and value. This well-appointed room features essential amenities to ensure a pleasant stay.
+
+                Key Features:
+                
+                Size: 250 sq. ft.
+                Bed: Queen-size bed with soft linens
+                Bathroom: En-suite bathroom with a shower and complimentary toiletries
+                Amenities:
+                Flat-screen TV with cable channels
+                Free Wi-Fi access
+                Mini-fridge for snacks and beverages
+                Coffee and tea-making facilities
+                Air conditioning for comfort
+                Decor: The Standard Room is designed with a warm color palette and modern furnishings, creating a welcoming atmosphere for relaxation.
+                
+                Ideal For: Perfect for solo travelers or couples, our Standard Room provides a great balance of comfort and affordability, making it an excellent choice for your stay.
+                
+                Booking Information: Price: 2000 per night
+                Check-in: 3:00 PM
+                Check-out: 11:00 AM
+            </p>
+            <h3>Standard Room</h3>
+            <p>Price: 2000 per night</p>
+            <button>Book Now</button>
+        </div>
+        <div class="room">
+            <img src="download (2).jpeg" alt="Suite Room">
+            <p>Indulge in the ultimate luxury experience in our spacious Suite Room, designed for those who appreciate elegance and comfort. This beautifully furnished suite offers a perfect blend of style and functionality, making it ideal for both relaxation and entertaining.
+
+                Key Features:
+                
+                Size: 500 sq. ft. of luxurious space
+                Bed: King-size bed with premium bedding and plush pillows
+                Living Area: Separate living area with a comfortable sofa, coffee table, and entertainment center
+                Bathroom: Expansive en-suite bathroom featuring a soaking tub, separate shower, double vanity, and high-end toiletries
+                Amenities:
+                Large flat-screen TV with premium cable channels
+                High-speed Wi-Fi access
+                Fully stocked mini-bar
+                Coffee and tea-making facilities
+                In-room safe for valuables
+                Air conditioning and heating for personalized comfort
+                Additional Services:
+                24-hour room service
+                Daily housekeeping
+                Complimentary breakfast included with your stay
+                Decor: The Suite Room is elegantly decorated with sophisticated furnishings, rich fabrics, and tasteful artwork, creating a refined atmosphere. Large windows provide stunning views and allow natural light to fill the space.
+                
+                Ideal For: Perfect for honeymooners, families, or business executives, our Suite Room offers an unparalleled level of comfort and luxury, ensuring a memorable stay.
+                
+                Booking Information: Price: 3500 per night
+                Check-in: 3:00 PM
+                Check-out: 11:00 AM
+            </p>
+            <h3>Suite Room</h3>
+            <p>Price: 3500 per night</p>
+            <button><a href="deluxe.html"></a>Book Now</button>
+        </div>
+    </section>
+
+    <section id="booking" style="display:none;" id="booking-form">
+        <h2>Booking Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="room">Select Room:</label>
+            <select id="room" name="room">
+                <option value="deluxe">Deluxe Room</option>
+                <option value="standard">Standard Room</option>
+                <option value="suite">Suite Room</option>
+            </select>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <button type="submit">Submit Booking</button>
+        </form>
+    </section>
+
+   
+</body>
+</html>
